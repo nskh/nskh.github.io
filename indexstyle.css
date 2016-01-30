@@ -1,8 +1,17 @@
 #intro {
 	font-size:18px;
 	font-family:"Helvetica";
+	margin: 40px auto;
+	max-width: 650px;
+	line-height: 1.6;
+	color: #444;
+	padding:0 10px;
 }
 
 a {
 	color:#00679E;
+}
+
+body {
+	background-color: #EEEEEE;
 }
