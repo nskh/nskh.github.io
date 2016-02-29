@@ -12,6 +12,10 @@ a {
 	color:#00679E;
 }
 
+h2 {
+	line-height: 1.2;
+}
+
 body {
-	background-color: #EEEEEE;
+	background: #F2F2F2;
 }
