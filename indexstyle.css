@@ -11,8 +11,12 @@
 #credit {
 	position:fixed; 
 	bottom:0; 
+	font-size:12px;
+	font-family:"Helvetica";
+	margin: 40px auto;
+	max-width: 650px;
+	padding:0 10px;
 	color:#BBB; 
-	font-size:72%	
 }
 
 a {
