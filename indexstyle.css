@@ -8,6 +8,16 @@
 	padding:0 10px;
 }
 
+#credit {
+	position:fixed; 
+	bottom:0; 
+	font-size:12px;
+	font-family:"Helvetica";
+	margin: auto;
+	max-width: 650px;
+	color:#BBB; 
+}
+
 a {
 	color:#00679E;
 }
