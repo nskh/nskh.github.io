@@ -2,8 +2,8 @@
 <html>
 
 <head>
-	<!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
-	<link rel="stylesheet" href="https://latex.now.sh/style.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<!-- <link rel="stylesheet" href="https://latex.now.sh/style.css"> -->
 	<title>Nishant Kheterpal</title>
 </head>
 
@@ -12,11 +12,12 @@
 		<h2>Hi! I'm Nishant.</h2>
 		<p>
 			I'm a research intern at <a href="https://www.uber.com/us/en/atg/">Uber ATG</a>, looking into simulation for
-			self-driving vehicles. This fall, I will begin a PhD in <a href="https://robotics.umich.edu">Robotics</a> at <a
-				href="https://umich.edu">Michigan</a>, advised by <a href="https://jeannin.github.io">Jean-Baptiste Jeannin</a>
-			and <a href="http://www-personal.umich.edu/~orosz/">Gabor Orosz</a>. I used to work on
-			simulation
-			for automated trucks at <a href="http://ikerobotics.com">Ike</a>.
+			self-driving vehicles. This fall, I will begin a PhD in <a href="https://robotics.umich.edu">Robotics</a> at
+			<a href="https://umich.edu">Michigan</a>, advised by
+			<span id="advisors">
+				<a href="https://jeannin.github.io">Jean-Baptiste Jeannin</a> and
+				<a href="http://www-personal.umich.edu/~orosz/">Gabor Orosz</a>
+			</span>. I used to work on simulation for automated trucks at <a href="http://ike.com">Ike</a>.
 		</p>
 		<p>
 			I went to <a href="https://berkeley.edu">Berkeley</a>, where I studied <a
@@ -43,14 +44,22 @@
 		</p>
 	</div>
 
-	<!-- <p id="credit">
+	<p id="credit">
 		Shamelessly inspired by <a href="http://canzhiye.com">Canzhi's website</a>, which is inspired by <a
 			href="http://bettermotherfuckingwebsite.com/">this other one</a>.
+	</p>
+
+	<!-- <p style="position:fixed; bottom:0; left:0; margin:auto; max-width:650px; padding:3px 10px">
+		Style from <a href="https://latex.now.sh/">https://latex.now.sh/</a>.
 	</p> -->
 
-	<p style="position:fixed; bottom:0; left:0; margin:auto; max-width:650px; padding:3px 10px">
-		Style from <a href="https://latex.now.sh/">https://latex.now.sh/</a>.
-	</p>
+	<!-- CODE FOR RANDOMIZING ADVISOR ORDER -->
+	<script>
+		var jeannin = '<a href="https://jeannin.github.io">Jean-Baptiste Jeannin</a>';
+		var orosz = '<a href="http://www-personal.umich.edu/~orosz/">Gabor Orosz</a>';
+		var text = Math.random() < 0.5 ? jeannin.concat(" and ").concat(orosz) : orosz.concat(" and ").concat(jeannin)
+		document.getElementById("advisors").innerHTML = text
+	</script>
 
 </body>
 
