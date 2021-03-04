@@ -1,1 +1,3 @@
-Hey! This is my readme.
+## Readme
+
+Nishant Kheterpal's personal website repo. Style from @canzhiye.
