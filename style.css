@@ -1,31 +1,59 @@
 #intro {
-	font-size:18px;
-	font-family:"Helvetica";
-	margin: 40px auto;
-	max-width: 650px;
-	line-height: 1.6;
-	color: #444;
-	padding:0 10px;
+    font-size: 18px;
+    font-family: "Helvetica";
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    color: #444;
+    padding: 0 10px;
 }
 
 #credit {
-	position:fixed; 
-	bottom:0; 
-	font-size:12px;
-	font-family:"Helvetica";
-	margin: auto;
-	max-width: 650px;
-	color:#BBB; 
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    font-family: "Helvetica";
+    margin: auto;
+    max-width: 650px;
+    color: #BBB;
+}
+
+.tooltip {
+    border-bottom: 1px dotted black;
+    /* If you want dots under the hoverable text */
+}
+
+
+/* Tooltip text */
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 200px;
+    background-color: rgb(79, 79, 79);
+    color: #fff;
+    text-align: center;
+    padding: 0 0;
+    border-radius: 6px;
+    /* Use half of the width (120/2 = 60), to center the tooltip */
+    z-index: 1;
+    position: absolute;
+}
+
+
+/* Show the tooltip text when you mouse over the tooltip container */
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
 
 a {
-	color:#00679E;
+    color: #00679E;
 }
 
 h2 {
-	line-height: 1.2;
+    line-height: 1.2;
 }
 
 body {
-	background: #F2F2F2;
+    background: #F2F2F2;
 }
