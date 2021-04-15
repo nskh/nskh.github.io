@@ -18,11 +18,27 @@
     color: #BBB;
 }
 
+#blog {
+    font-family: "Helvetica";
+    margin: 40px auto;
+    max-width: 650px;
+    line-height: 1.6;
+    color: #444;
+    padding: 0 10px;
+}
+
+#blog p {
+    font-size: 14px;
+}
+
+#blog ul {
+    font-size: 14px;
+}
+
 .tooltip {
     border-bottom: 1px dotted black;
     /* If you want dots under the hoverable text */
 }
-
 
 /* Tooltip text */
 
@@ -38,7 +54,6 @@
     z-index: 1;
     position: absolute;
 }
-
 
 /* Show the tooltip text when you mouse over the tooltip container */
 
