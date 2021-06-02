@@ -1,25 +1,28 @@
 #intro {
     font-size: 18px;
-    font-family: "Helvetica";
+    font-family: "Overpass";
     margin: 40px auto;
     max-width: 650px;
     line-height: 1.6;
     color: #444;
     padding: 0 10px;
+    font-weight: 300;
 }
 
 #credit {
     position: fixed;
     bottom: 0;
     font-size: 12px;
-    font-family: "Helvetica";
+    font-family: "Overpass";
+    font-weight: 300;
     margin: auto;
     max-width: 650px;
     color: #BBB;
 }
 
 #blog {
-    font-family: "Helvetica";
+    font-family: "Overpass";
+    font-weight: 300;
     margin: 40px auto;
     max-width: 650px;
     line-height: 1.6;
@@ -63,6 +66,11 @@
 
 a {
     color: #00679E;
+}
+
+.quiet {
+    text-decoration: none;
+    color: #444;
 }
 
 h2 {
