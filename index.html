@@ -82,12 +82,22 @@
 		Style from <a href="https://latex.now.sh/">https://latex.now.sh/</a>.
 	</p> -->
 
-    <!-- CODE FOR RANDOMIZING ADVISOR ORDER -->
+    <!-- CODE FOR RANDOMIZING ADVISOR ORDER and RESPONSIVENESS-->
     <script>
         var jeannin = '<a href="https://jeannin.github.io">Jean-Baptiste Jeannin</a>';
         var orosz = '<a href="http://www-personal.umich.edu/~orosz/">Gabor Orosz</a>';
         var text = Math.random() < 0.5 ? jeannin.concat(" and ").concat(orosz) : orosz.concat(" and ").concat(jeannin)
         document.getElementById("advisors").innerHTML = text
+
+        /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+        function myFunction() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
     </script>
 
 </body>
