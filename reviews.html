@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Overpass"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://robotics.umich.edu/wp-content/uploads/fbrfg/favicon-32x32.png?v=092019"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="https://robotics.umich.edu/wp-content/uploads/fbrfg/favicon-16x16.png?v=092019"
+    />
+    <link
+      rel="shortcut icon"
+      href="https://robotics.umich.edu/wp-content/uploads/fbrfg/favicon.ico?v=092019"
+    />
+    <title>Nishant Kheterpal</title>
+  </head>
+
+  <body>
+    <div class="topnav" id="myTopnav">
+      <a href="https://nishant.page/">Home</a>
+      <a href="https://nishant.page/reviews" class="active">Reviews</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+
+    <div id="intro">
+      <h2>Hi! I'm Nishant.</h2>
+      <p>My teaching reviews can be downloaded as PDFs below, by semester:</p>
+      <ul>
+        <li><a href="teaching_reviews/fa16_all.pdf">Fall 2016</a></li>
+        <li>
+          <a href="teaching_reviews/sp17.pdf">Spring 2017</a>
+          <span class="tooltip">
+            (note)
+            <span class="tooltiptextwide">
+              ratings are lower in Spring 2017 due to a survey issue where
+              students I did not teach were asked to rate my teaching; I think
+              that's where a lot of the 3/5s come from
+            </span>
+          </span>
+        </li>
+        <li><a href="teaching_reviews/fa17.pdf">Fall 2017</a></li>
+        <li><a href="teaching_reviews/sp18.pdf">Spring 2018</a></li>
+        <li><a href="teaching_reviews/fa18.pdf">Fall 2018</a></li>
+      </ul>
+    </div>
+
+    <p id="credit">
+      Shamelessly inspired by
+      <a href="https://canzhiye.com">Canzhi's website</a>, which is inspired by
+      <a href="http://bettermotherfuckingwebsite.com/">this other one</a>.
+    </p>
+
+    <!-- <p style="position:fixed; bottom:0; left:0; margin:auto; max-width:650px; padding:3px 10px">
+		Style from <a href="https://latex.now.sh/">https://latex.now.sh/</a>.
+	</p> -->
+
+    <!-- CODE FOR RANDOMIZING ADVISOR ORDER and RESPONSIVENESS-->
+    <script>
+      // var jeannin = '<a href="https://jeannin.github.io">Jean-Baptiste Jeannin</a>';
+      // var orosz = '<a href="http://www-personal.umich.edu/~orosz/">Gabor Orosz</a>';
+      // var text = Math.random() < 0.5 ? jeannin.concat(" and ").concat(orosz) : orosz.concat(" and ").concat(jeannin)
+      // document.getElementById("advisors").innerHTML = text
+
+      /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
