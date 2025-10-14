@@ -30,127 +30,365 @@
   </head>
 
   <body>
-    <div class="topnav" id="myTopnav">
-      <a href="#" class="active">Home</a>
-      <a href="https://nishant.page/blog">Blog</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-      </a>
-    </div>
-
     <div id="intro">
-      <h2>Hi! I'm Nishant.</h2>
-      <p>
-        I'm a
-        <span class="tooltip"
-          >21st-grader<span class="tooltiptext"
-            >fifth-year PhD student</span
-          ></span
-        >
-        and PhD candidate in
-        <a href="https://robotics.umich.edu">Robotics</a> at the
-        <a href="https://umich.edu" class="quiet">University of Michigan</a>,
-        advised by
-        <span id="advisors">
-          <a href="https://jeannin.github.io">Jean-Baptiste Jeannin</a>.
-          <!-- <a href="https://jeannin.github.io">Jean-Baptiste Jeannin</a> and -->
-          <!-- <a href="https://www-personal.umich.edu/~orosz/">Gabor Orosz</a> -->
-        </span>
-        My research concerns formal verification for automotive control, such as
-        collision avoidance systems, and has been supported by a NASA
-        Fellowship. Recently, I've been working on automatic verification for
-        collision avoidance, leveraging geometric intuition. We've published a
-        <a href="https://jeannin.github.io/papers/kheterpal2022automating.pdf"
-          >few</a
-        >
-        <a
-          href="https://jeannin.github.io/papers/kheterpal2022formalization.pdf"
-          >papers</a
-        >
-        on the "active corner method", which enables automatic generation of
-        efficiently-checkable safe regions for collision avoidance testing at
-        scale. In the past, I've worked as a research intern at Uber ATG (since
-        <a
-          href="https://techcrunch.com/2020/12/07/uber-sells-self-driving-unit-uber-atg-in-deal-that-will-push-auroras-valuation-to-10b/"
-          >acquired</a
-        >
-        by <a href="https://aurora.tech" class="quiet">Aurora</a>) and on
-        simulation for automated trucks at Ike (since
-        <a
-          href="https://techcrunch.com/2020/12/23/nuro-acquires-autonomous-trucking-startup-ike/"
-          >acquired</a
-        >
-        by <a href="https://nuro.ai" class="quiet">Nuro</a>). I'm interested in
-        teaching careers after my PhD and am currently a graduate student
-        instructor for <a href="https://eecs280.org">EECS 280</a>, an
-        introductory computer science course that's the largest class at
-        Michigan. This summer, I'll be teaching
-        <a href="https://dsc10.com">DSC 10</a> and
-        <a href="https://dsc40a.com">DSC 40A</a> at UC San Diego.
-      </p>
-      <p>
-        I went to <a href="https://berkeley.edu" class="quiet">Berkeley</a> for
-        undergrad, where I studied
-        <a href="https://eecs.berkeley.edu" class="quiet"
-          >electrical engineering & computer science</a
-        >, spent five semesters helping teach a
-        <a href="https://data8.org">data science course</a> that the
-        <a
-          href="https://www.wsj.com/articles/at-berkeley-its-big-data-on-campus-1541066401"
-          >Wall Street Journal wrote about</a
-        >, won an
-        <a
-          href="https://gsi.berkeley.edu/programs-services/award-programs/ogsi/ogsi-2018/"
-          >Outstanding GSI Award</a
-        >, and
-        <a href="https://bayen.berkeley.edu">researched</a>
-        <a
-          href="https://engineering.berkeley.edu/2018/10/turning-cars-robot-traffic-managers"
-          >traffic-mitigating</a
-        >
-        <a
-          href="https://www.wired.com/wiredinsider/2019/08/autonomous-vehicles-answer-growing-traffic-woes/"
-          >strategies</a
-        >
-        for autonomous vehicles and intelligent infrastructure.
-      </p>
-      <p>
-        At Cal, I was part of the team that built
-        <a href="https://flow-project.github.io">Flow</a>, an open-source
-        framework inferfacing the microscopic vehicle simulator SUMO (and later
-        Aimsun) with the deep reinforcement library Ray RLlib. Flow enables the
-        design and analysis of traffic scenarios as well as the training of
-        agents using deep RL.
-        <a
-          href="https://flow-project.github.io/papers/Flow_Deep_Reinforcement_Learning_for_Control_in_SUMO.pdf"
-          >Here</a
-        >
-        <a href="https://proceedings.mlr.press/v87/vinitsky18a/vinitsky18a.pdf"
-          >are</a
-        >
-        <a href="itsc_cistar_paper.pdf">some</a>
-        <a href="https://openreview.net/pdf?id=r1lT6YT4hm">papers</a> I
-        contributed to at Cal. I also like to bake, read, and bike. <br />
-        <br />
-        <a href="mailto:nishantkheterpal@gmail.com">Email me</a> if you'd like.
-        Here are my <a href="resume.pdf">resume</a> (short) and
-        <a href="cv.pdf">CV</a> (long). Find my
-        <a
-          href="https://scholar.google.com/citations?user=hDYcVFUAAAAJ&hl=en"
-          class="quiet"
-          >Google Scholar</a
-        >
-        <a href="https://scholar.google.com/citations?user=hDYcVFUAAAAJ&hl=en"
-          >here</a
-        >.
-      </p>
+      <div class="intro-main">
+        <div class="intro-left">
+          <img src="headshot.png" alt="Nishant Kheterpal" class="headshot" />
+          <div class="contact-info">
+            <a href="mailto:nskh@umich.edu">nskh@umich.edu</a>
+            <br />
+            <a href="cv.pdf">CV</a>
+            &nbsp;|&nbsp;
+            <a
+              href="https://scholar.google.com/citations?user=hDYcVFUAAAAJ&hl=en"
+            >
+              <i class="fa fa-graduation-cap"></i>
+            </a>
+          </div>
+        </div>
+        <div class="intro-text">
+          <h2>Hi! I'm Nishant.</h2>
+          <p>
+            I'm a PhD candidate in
+            <a href="https://robotics.umich.edu">Robotics</a> at the University
+            of Michigan, advised by
+            <a href="https://jeannin.github.io">Jean-Baptiste Jeannin</a>. My
+            research concerns applied formal methods, in the domains of
+            safety-critical systems, proof automation, and education.
+          </p>
+          <p>
+            I'm passionate about teaching computer science, robotics, and data
+            science, with eleven terms of teaching experience across three
+            institutions. Over Summer 2024, I taught data science courses at the
+            Halıcıoğlu Data Science Institute at UC San Diego as instructor of
+            record. Previously, I earned a B.S. degree in Electrical Engineering
+            and Computer Sciences at UC Berkeley and spent two years working in
+            self-driving.
+            <br />
+            <span class="job-market-bubble">
+              <strong>
+                I am on the job market for teaching-track faculty positions
+                beginning Fall 2026.
+              </strong>
+            </span>
+          </p>
+        </div>
+      </div>
     </div>
 
+    <div class="section">
+      <h2>Teaching</h2>
+
+      <h3>Halıcıoğlu Data Science Institute at UC San Diego</h3>
+      <div class="teaching-item">
+        <div class="item-header">
+          <span class="item-title">Instructor of Record - DSC 10</span>
+          <span class="item-date"
+            ><a
+              href="https://dsc-courses.github.io/dsc10-2024-su/"
+              target="_blank"
+              >Summer Session I 2024</a
+            ></span
+          >
+        </div>
+      </div>
+
+      <div class="teaching-item">
+        <div class="item-header">
+          <span class="item-title">Instructor of Record - DSC 40A</span>
+          <span class="item-date"
+            ><a
+              href="https://dsc-courses.github.io/dsc40a-2024-su-ii/"
+              target="_blank"
+              >Summer Session II 2024</a
+            ></span
+          >
+        </div>
+      </div>
+
+      <h3>University of Michigan</h3>
+      <div class="teaching-item">
+        <div class="item-header">
+          <span class="item-title">
+            Graduate Student Instructor - EECS 280
+          </span>
+          <span class="item-date">
+            <a href="https://eecs280.org/w24" target="_blank">Winter 2024</a>,
+            <a href="https://eecs280.org" target="_blank">Fall 2025</a>
+          </span>
+        </div>
+        Quiz lead in Fall 2025
+      </div>
+      <div class="teaching-item">
+        <div class="item-header">
+          <span class="item-title"
+            >Lead Graduate Student Instructor - Practical Data Science (EECS
+            398-003)</span
+          >
+          <span class="item-date"
+            ><a href="https://practicaldsc.org/fa24" target="_blank"
+              >Fall 2024</a
+            ></span
+          >
+        </div>
+        Finalist for College of Engineering Towner Prize for Outstanding GSIs
+      </div>
+      <div class="teaching-item">
+        <div class="item-header">
+          <span class="item-title">Guest Lecturer - EECS 590, Aero 552</span>
+          <span class="item-date">Fall 2023, Winter 2024</span>
+        </div>
+      </div>
+      <div class="teaching-item">
+        <div class="item-header">
+          <span class="item-title"
+            >Graduate Student Instructor - Robotics 599</span
+          >
+          <span class="item-date">Fall 2023</span>
+        </div>
+      </div>
+
+      <h3>University of California, Berkeley</h3>
+      <div class="teaching-item">
+        <div class="item-header">
+          <span class="item-title"
+            >Data 8 - Undergraduate Student Instructor</span
+          >
+          <span class="item-date"
+            ><a href="https://data8.org/fa16" target="_blank">Fall 2016</a>,
+            <a href="https://data8.org/sp17" target="_blank">Spring 2017</a>,
+            <a href="https://data8.org/fa17" target="_blank">Fall 2017</a>,
+            <a href="https://data8.org/sp18" target="_blank">Spring 2018</a>,
+            <a href="https://data8.org/fa18" target="_blank">Fall 2018</a>
+          </span>
+        </div>
+        Received Outstanding GSI Award (Top 9% of GSIs)
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Publications</h2>
+      <div class="publication-item">
+        <strong>N. Kheterpal</strong>, J. T. Slagel, E. Tang, S. Z. Dane, J-B.
+        Jeannin, "Automatic Certification of the Active Corner Method for
+        Collision Avoidance." <em>Certified Programs and Proofs</em>, 2026. (In
+        submission)
+      </div>
+      <div class="publication-item">
+        <strong>N. Kheterpal</strong>, J-B. Jeannin, "Towards a study of
+        performance for safe neural network training."
+        <em
+          >Workshop on Formal Methods for ML-Enabled Autonomous Systems, CAV</em
+        >, 2023.
+      </div>
+      <div class="publication-item">
+        <strong>N. Kheterpal</strong>, J-B. Jeannin, "Towards a Formalization of
+        the Active Corner Method for Collision Avoidance in PVS."
+        <em>Formal Techniques for Safety-Critical Systems, SPLASH</em>, 2022.
+      </div>
+      <div class="publication-item">
+        <strong>N. Kheterpal</strong>, E. Tang, J-B. Jeannin, "<a
+          href="https://jeannin.github.io/papers/kheterpal2022automating.pdf"
+          >Automating Geometric Proofs of Collision Avoidance with Active
+          Corners.</a
+        >" <em>Formal Methods in Computer-Aided Design</em>, 2022. (40 accepted
+        / 88 submissions)
+      </div>
+      <div class="publication-item">
+        <strong>N. Kheterpal</strong>, E. Vinitsky, C. Wu, A. Kreidieh, K. Jang,
+        K. Parvate, A. Bayen, "<a
+          href="https://flow-project.github.io/papers/Flow_Deep_Reinforcement_Learning_for_Control_in_SUMO.pdf"
+        >
+          Flow: Open Source Reinforcement Learning for Traffic Control. </a
+        >" <em>Workshop on Machine Learning Open-Source Software, NeurIPS</em>,
+        2018.
+      </div>
+      <div class="publication-item">
+        E. Vinitsky, A. Kreidieh, L. Le Flem, <strong>N. Kheterpal</strong>, K.
+        Jang, F. Wu, R. Liaw, E. Liang, A. Bayen, "<a
+          href="https://proceedings.mlr.press/v87/vinitsky18a/vinitsky18a.pdf"
+          >Benchmarks for Reinforcement Learning in Mixed-Autonomy Traffic.</a
+        >" <em>Conference on Robot Learning</em>. 2018.
+      </div>
+      <div class="publication-item">
+        <strong>N. Kheterpal</strong>, K. Parvate, C. Wu, A. Kreidieh, E.
+        Vinitsky, A. Bayen, "<a href="itsc_cistar_paper.pdf"
+          >Flow: Deep Reinforcement Learning for Control in SUMO</a
+        >", <em>SUMO User Conference</em>, 2018.
+      </div>
+      <div class="publication-item">
+        C. Wu, K. Parvate, <strong>N. Kheterpal</strong>, L. Dickstein, A.
+        Mehta, E. Vinitsky, A. Bayen, "<a
+          href="https://openreview.net/pdf?id=r1lT6YT4hm"
+          >Framework for Control and Deep Reinforcement Learning in Traffic.</a
+        >" <em>Intelligent Transportation Systems (ITSC)</em>, 2017 IEEE 20th
+        International Conference on. IEEE, 2017.
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <div class="education-item">
+        <h3>University of Michigan</h3>
+        <div class="item-header">
+          <span class="item-title">PhD in Robotics</span>
+          <span class="item-date">expected 2026</span>
+        </div>
+        <div class="item-header">
+          <span class="item-title">MS in Robotics</span>
+          <span class="item-date">2022</span>
+        </div>
+      </div>
+      <div class="education-item">
+        <h3>University of California, Berkeley</h3>
+        <div class="item-header">
+          <span class="item-title">
+            BS in Electrical Engineering and Computer Sciences
+          </span>
+          <span class="item-date">2018</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Media</h2>
+      <div class="media-item">
+        <div class="item-three-part">
+          <span class="item-left"
+            ><strong>Wired</strong> - "<a
+              href="https://www.wired.com/wiredinsider/2019/08/autonomous-vehicles-answer-growing-traffic-woes/"
+              >Autonomous Vehicles: Answer to Growing Traffic Woes?</a
+            >"</span
+          >
+          <span class="item-right">August 2019</span>
+        </div>
+        <!-- Feature on autonomous vehicle traffic management research from Berkeley -->
+        <!-- Deep Drive -->
+      </div>
+      <div class="media-item">
+        <div class="item-three-part">
+          <span class="item-left"
+            ><strong>Wall Street Journal</strong> - "<a
+              href="https://www.wsj.com/articles/at-berkeley-its-big-data-on-campus-1541066401"
+              >At Berkeley, It's Big Data on Campus</a
+            >"</span
+          >
+          <span class="item-right">December 2018</span>
+        </div>
+        <!-- Featured coverage of Data 8 course where I served as pedagogy lead TA
+        for 1200+ students -->
+      </div>
+      <div class="media-item">
+        <div class="item-three-part">
+          <span class="item-left"
+            ><strong>Berkeley Engineering</strong> - "<a
+              href="https://engineering.berkeley.edu/2018/10/turning-cars-robot-traffic-managers"
+              >Turning Cars into Robot Traffic Managers</a
+            >"</span
+          >
+          <span class="item-right">October 2018</span>
+        </div>
+        <!-- Coverage of Flow project research on traffic-mitigating strategies for
+        autonomous vehicles -->
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Honors and Awards</h2>
+      <div class="award-item">
+        <div class="item-three-part">
+          <span class="item-left"
+            >Towner Prize for Outstanding GSIs, UM College of Engineering -
+            Finalist</span
+          >
+          <span class="item-right">2026</span>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="item-header">
+          <span class="item-left"
+            >Graduate Teacher Certificate, University of Michigan</span
+          >
+          <span class="item-date">December 2024</span>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="item-header">
+          <span class="item-left">NASA Graduate Fellowship</span>
+          <span class="item-date">2021-2023</span>
+        </div>
+      </div>
+      <!-- <div class="award-item">
+        <div class="item-three-part">
+          <span class="item-left">Rackham Travel Grant Recipient</span>
+          <span class="item-right">2022</span>
+        </div>
+      </div> -->
+      <!-- <div class="award-item">
+        <div class="item-three-part">
+          <span class="item-left"
+            >NSF Graduate Research Fellowship Honorable Mention</span
+          >
+          <span class="item-right">2021</span>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="item-three-part">
+          <span class="item-left"
+            >Berkeley Engineering Honors to Date - Top 20% GPA</span
+          >
+          <span class="item-right">Fall 2015 - Fall 2018</span>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="item-three-part">
+          <span class="item-left"
+            >Bronze Medal Winner - Siemens-UC Berkeley Hackathon</span
+          >
+          <span class="item-right">2018</span>
+        </div>
+      </div> -->
+      <div class="award-item">
+        <div class="item-three-part">
+          <span class="item-left"
+            >UC Berkeley Outstanding Graduate Student Instructor Award - Top 9%
+            of GSIs</span
+          >
+          <span class="item-right">Spring 2018</span>
+        </div>
+      </div>
+      <!-- <div class="award-item">
+        <div class="item-three-part">
+          <span class="item-left"
+            >Member, Eta Kappa Nu, Mu (Berkeley) Chapter - Top 25% of EECS
+            Majors</span
+          >
+          <span class="item-right">Fall 2016</span>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="item-three-part">
+          <span class="item-left"
+            >College of Engineering Dean's List - Top 10% GPA</span
+          >
+          <span class="item-right">Fall 2015, Fall 2016, Spring 2017</span>
+        </div>
+      </div>
+      <div class="award-item">
+        <div class="item-three-part">
+          <span class="item-left"
+            >Michigan Mathematics Prize Competition - Top 100</span
+          >
+          <span class="item-right">2015</span>
+        </div>
+      </div> -->
+    </div>
+    <!-- 
     <p id="credit">
       Shamelessly inspired by
       <a href="https://canzhiye.com">Canzhi's website</a>, which is inspired by
       <a href="http://bettermotherfuckingwebsite.com/">this other one</a>.
-    </p>
+    </p> -->
 
     <!-- <p style="position:fixed; bottom:0; left:0; margin:auto; max-width:650px; padding:3px 10px">
 		Style from <a href="https://latex.now.sh/">https://latex.now.sh/</a>.
