@@ -145,6 +145,10 @@
     color: #1a252f;
 }
 
+.item-description {
+    font-size: 14px;
+}
+
 .item-date {
     color: #6c757d;
     font-size: 14px;
@@ -192,7 +196,7 @@
 .education-item p strong, .teaching-item p strong, .publication-item p strong, .industry-item p strong, .award-item p strong, .media-item p strong,
 .education-item strong, .teaching-item strong, .publication-item strong, .industry-item strong, .award-item strong, .media-item strong {
     color: #1a252f;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 #credit {
