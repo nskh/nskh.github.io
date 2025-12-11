@@ -27,9 +27,9 @@
 
 .headshot {
     width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
+    height: auto;
+    border-radius: 8px;
+    object-fit: contain;
     flex-shrink: 0;
     border: 3px solid #e8ecf0;
     margin-bottom: 20px;
@@ -59,12 +59,28 @@
     }
     
     .headshot {
-        width: 100px;
-        height: 100px;
+        width: 150px;
+        height: auto;
     }
     
     .intro-text {
         text-align: left;
+    }
+
+    .item-title {
+        font-size: 16px;
+        line-height: 1.5;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+
+    .item-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .item-date {
+        margin-top: 4px;
     }
 }
 
