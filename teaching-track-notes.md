@@ -1,12 +1,23 @@
 ---
 layout: default
 title: Teaching-Track Job Market Reflections
-permalink: /teaching-track/
+permalink: /job-market/
 ---
 
 # Teaching-Track Job Market Reflections
 
-I went on the academic job market for (mostly) R1 teaching-track roles in Computer Science in 2025–2026, in the last year of my (long) PhD. I'm sharing a few reflections and notes on my job market experience here, but this page is not meant to be an authoritative guide to the teaching-track job market. A great place to start is the [CS Job Market Guide](https://csguides.github.io/grad-job-guide/), which is a general guide to post-PhD academic career job searches. Adam Blank and Travis McGaha maintain a [list of CS teaching-track jobs that do not require a PhD](https://adamblan.github.io/cs-ms-teaching-track/), which is another good resource for folks interested in teaching careers who do not have a PhD (note that a Master's is required for these roles). [Sylvia Herbert](https://sylviaherbert.com/faculty-application-advice) has a good set of resources based on her job search, as does my former Berkeley classmate [Ryan Cosner](https://www.rkcosner.com/blogs/faculty_apps/).
+I went on the academic job market for (mostly) R1 teaching-track roles in Computer Science in 2025–2026, in the last year of my (long) PhD. I'm sharing a few reflections and notes on my job market experience here, but this page is not meant to be an authoritative guide to the teaching-track job market.
+
+A few resources that helped me:
+
+- A great place to start is the [CS Job Market Guide](https://csguides.github.io/grad-job-guide/), which is a general guide to post-PhD academic career job searches.
+- Adam Blank and Travis McGaha maintain a [list of CS teaching-track jobs that do not require a PhD](https://adamblan.github.io/cs-ms-teaching-track/), which is another good resource for folks interested in teaching careers who do not have a PhD (note that a Master's is required for these roles).
+- [Sylvia Herbert](https://sylviaherbert.com/faculty-application-advice) has a good set of resources based on her (tenure-track) job search.
+- So does my former Berkeley classmate [Ryan Cosner](https://www.rkcosner.com/blogs/faculty_apps/); Go Bears!
+
+## How my job search went
+
+I applied to around 20 schools, about half of which were R1 CS departments. I don't remember the precise numbers, but I had phone interviews at nearly every R1 school to which I applied on-time. I converted all but one or two of these R1 phone interviews to on-campus interviews. I went on 8 on-campus interviews, 7 of which were R1 schools; I turned down a ninth on-campus interview invitation. I received 5 offers, including two of my top three choices. I don't say this to brag, but I wanted to provide some context for how my search went. I did _much more poorly_ at liberal arts schools and tenure-track roles at R2 or regional universities, which, I think, reflects the weakness of my research record compared to my strong teaching background.
 
 ## Picking Schools
 
@@ -41,10 +52,11 @@ Travel tips:
 - Similarly, a Friday/Monday interview schedule can be a pain, even though you've technically split the two interviews across two weeks. This is particularly annoying because schools usually cover two nights of hotel, so you're left figuring out a Saturday night hotel yourself.
 - Prioritize convenience in your travel: fly direct and take Uber/Lyft/taxi from the airport. Schools will reimburse you for reasonable travel expenses and spending (reimbursed) money to save time and hassle is well worth it.
 - I wore the exact same outfit for every interview, plus or minus jackets and cardigans depending on weather. I wore a light blue button-down shirt, tucked into olive green chinos over brown dress shoes. See the CS Job Market Guide for more, but dress in a way that will make you comfortable; if you are not a frequent suit or blazer wearer, do not start doing so for the first time during your interviews.
+- This is random, but I only ordered alcohol at my dinners if one of my hosts did. I did order two drinks on one occasion when all three of my hosts also got second drinks, but otherwise kept it to one drink. This should go without saying, but please only drink at interviews if you can do so responsibly and won't make a fool of yourself.
 
 ## Opinionation
 
-Anyone who knows me will tell you I do not hesitate before sharing what I think, or perhaps do not think before I speak. I was worried that this would be detrimental when I interviewed, but I think in fact my candor was a benefit. To be clear, you shouldn't be offensive (and neither was I!), but I think a candidate who has some strong opinions about teaching philosophy is not a bad thing. On a second visit, someone mentioned other candidates who had pedagogically excellent teaching demos (active learning, a blend of modalities, etc) but in a way that was "thin" —— perhaps they weren't able to express the beliefs behind their pedagogical choices.
+Anyone who knows me will tell you I do not hesitate before sharing what I think, or, more bluntly, often do not think before I speak. I was worried that this would be detrimental when I interviewed, but I think, in fact, my candor was a benefit. To be clear, you shouldn't be offensive (and neither was I!), but I think a candidate who has some strong opinions about teaching philosophy is not a bad thing. On a second visit, someone mentioned other candidates who had pedagogically excellent teaching demos (active learning, a blend of modalities, etc) but in a way that was "thin" —— perhaps they weren't able to express the beliefs behind their pedagogical choices.
 
 Perhaps due to all the time I've spent in school as both a student and a TA, I have lots of opinions about things:
 
