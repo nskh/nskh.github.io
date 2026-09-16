@@ -5,6 +5,7 @@ permalink: /job-market/
 ---
 
 # Teaching-Track Job Market Reflections
+{:.no_toc}
 
 I went on the academic job market for (mostly) R1 teaching-track roles in Computer Science in 2025–2026, in the last year of my (long) PhD. I'm sharing a few reflections and notes on my job market experience here, but this page is not meant to be an authoritative guide to the teaching-track job market.
 
@@ -15,9 +16,20 @@ A few resources that helped me:
 - [Sylvia Herbert](https://sylviaherbert.com/faculty-application-advice) has a good set of resources based on her (tenure-track) job search.
 - So does my former Berkeley classmate [Ryan Cosner](https://www.rkcosner.com/blogs/faculty_apps/); Go Bears!
 
-## How my job search went
+<nav aria-label="On this page" markdown="1">
+
+**On this page**
+
+- Contents
+{:toc}
+
+</nav>
+
+# How my job search went
 
 I applied to around 20 schools, about half of which were R1 CS departments. I don't remember the precise numbers, but I had phone interviews at nearly every R1 school to which I applied on-time. I converted all but one or two of these R1 phone interviews to on-campus interviews. I went on 8 on-campus interviews, 7 of which were R1 schools; I turned down a ninth on-campus interview invitation. I received 5 offers, including two of my top three choices. I don't say this to brag, but I wanted to provide some context for how my search went. I did _much more poorly_ at liberal arts schools and tenure-track roles at R2 or regional universities, which, I think, reflects the weakness of my research record compared to my strong teaching background.
+
+# Preparing to apply
 
 ## Picking Schools
 
@@ -40,7 +52,7 @@ I went on the market in the last year of my PhD, and thus could promise to have 
 
 If you have multiple choices of MS degrees in front of you, please reach out to teaching faculty at each of those schools. They are, almost universally, wonderfully welcoming people who are happy to chat with aspiring CS teachers. They'll have good advice about what the teaching landscape looks like for students at their institutions. If you're in an MS degree and feel like somehow you've missed the boat, do not despair. A PhD is a long, poorly compensated journey, and there are multiple ways to gain teaching experience while in industry. You will, to be sure, have to forge your own path in some ways, but teaching at, say, community colleges or part-time during summers on the side of an industry job is absolutely a thing and a pathway to teaching careers. One person who's very passionate about getting more folks into CS teaching is Washington's [Justin Hsia](https://www.cs.washington.edu/people/faculty/justin-hsia/), who has studied the needs of CS-teaching institutions, and may provide good guidance about community college teaching in particular.
 
-## Application Materials
+# Application Materials
 
 Below are my application materials from October 2025. I followed a lot of advice from Suraj Rampure, whose materials are publicly available [here](https://rampure.org/tf-app-materials).
 
@@ -61,7 +73,7 @@ A few notes on my materials:
 - I customized the first sentence and last paragraph of my teaching statement for each school to which I applied, but not more than that.
 - My teaching statement was really long (six PDF pages) but spaced out a fair bit and used images. In practice, only a few schools had strict length limits. For those schools, I cut some images and tightened up the spacing, but the length seemed not to be an issue everywhere else I applied. I did not change my teaching statement for each school, instead customizing my CV per application.
 
-## Interviewing
+# Interviewing
 
 I had eight on-campus interviews stretching from mid-January to mid-March 2026. With SIGCSE in the middle, that meant I had a trip a week for eight out of nine weeks, minus a rescheduled interview due to severe weather and flight cancellations. You should plan for very little research progress during that time.
 
