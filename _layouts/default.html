@@ -4,6 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>{{ page.title }} | Nishant Kheterpal</title>
+    {% if page.preview_image %}
+    <meta property="og:title" content="{{ page.title | escape }}" />
+    <meta property="og:image" content="{{ page.preview_image | escape }}" />
+    {% endif %}
     <link rel="stylesheet" href="{{ '/style.css' | relative_url }}" />
     <link
       rel="stylesheet"

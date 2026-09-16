@@ -2,6 +2,7 @@
 layout: default
 title: Teaching-Track Job Market Reflections
 permalink: /job-market/
+preview_image: https://nishant.page/headshot.jpg
 ---
 
 # Teaching-Track Job Market Reflections
