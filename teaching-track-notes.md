@@ -40,6 +40,27 @@ I went on the market in the last year of my PhD, and thus could promise to have 
 
 If you have multiple choices of MS degrees in front of you, please reach out to teaching faculty at each of those schools. They are, almost universally, wonderfully welcoming people who are happy to chat with aspiring CS teachers. They'll have good advice about what the teaching landscape looks like for students at their institutions. If you're in an MS degree and feel like somehow you've missed the boat, do not despair. A PhD is a long, poorly compensated journey, and there are multiple ways to gain teaching experience while in industry. You will, to be sure, have to forge your own path in some ways, but teaching at, say, community colleges or part-time during summers on the side of an industry job is absolutely a thing and a pathway to teaching careers. One person who's very passionate about getting more folks into CS teaching is Washington's [Justin Hsia](https://www.cs.washington.edu/people/faculty/justin-hsia/), who has studied the needs of CS-teaching institutions, and may provide good guidance about community college teaching in particular.
 
+## Application Materials
+
+Below are my application materials from October 2025. I followed a lot of advice from Suraj Rampure, whose materials are publicly available [here](https://rampure.org/tf-app-materials).
+
+<div class="application-materials-links" aria-label="Application materials">
+  <a href="/application-materials/cv.pdf">CV</a>
+  <a href="/application-materials/cover-letter.pdf">Cover Letter</a>
+  <a href="/application-materials/teaching-statement.pdf">Teaching Statement</a>
+  <a href="/application-materials/teaching-portfolio.pdf" aria-label="Teaching Portfolio (first two pages)">Teaching Portfolio</a>
+</div>
+
+A few notes on my materials:
+
+- Make sure each of your application materials has your name, email, and website linked in the header. That, for me, looked like a header that said:
+
+  <img src="/application-materials/teaching-statement-header.png" alt="Teaching Statement header with Nishant Kheterpal’s name, email nskh@umich.edu, and website nishant.page" width="500" style="max-width: 100%; height: auto;" />
+
+- Your website should be professional and easy to navigate. Put the most important things first: a bio, headshot, and a _note that you're on the job market_ at the top. After that, if you're interviewing for teaching-track roles, put your teaching experience first, and your research experience second. Please make a website if you're on the market and make sure it's high quality; LLMs can help a lot with this work.
+- I customized the first sentence and last paragraph of my teaching statement for each school to which I applied, but not more than that.
+- My teaching statement was really long (six PDF pages) but spaced out a fair bit and used images. In practice, only a few schools had strict length limits. For those schools, I cut some images and tightened up the spacing, but the length seemed not to be an issue everywhere else I applied. I did not change my teaching statement for each school, instead customizing my CV per application.
+
 ## Interviewing
 
 I had eight on-campus interviews stretching from mid-January to mid-March 2026. With SIGCSE in the middle, that meant I had a trip a week for eight out of nine weeks, minus a rescheduled interview due to severe weather and flight cancellations. You should plan for very little research progress during that time.
